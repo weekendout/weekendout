@@ -157,6 +157,7 @@
  -->
           <departure></departure>
           <tier></tier>
+          <themes></themes>
 
       </div>
   </div>
@@ -168,6 +169,7 @@ module.exports =
   components:
     Departure: require('components/Departure')
     Tier: require('components/Tier')
+    Themes: require('components/Themes')
 
 </script>
 
