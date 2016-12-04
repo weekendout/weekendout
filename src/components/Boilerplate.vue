@@ -4,7 +4,7 @@
   </div>
 </template>
 <script lang="coffee">
-  modules.export = {}
+  modules.exports = {}
 </script>
 
 <style lang="sass">
