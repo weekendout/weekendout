@@ -155,11 +155,8 @@
             </div>
           </section>
  -->
-          <section id="footer">
-            <div class="inner">
-              <Departure/>
-            </div>
-          </section>
+          <departure></departure>
+          <tier></tier>
 
       </div>
   </div>
@@ -170,6 +167,7 @@ module.exports =
   name: 'app'
   components:
     Departure: require('components/Departure')
+    Tier: require('components/Tier')
 
 </script>
 
