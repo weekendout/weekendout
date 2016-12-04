@@ -114,8 +114,9 @@
 
           </section>
 
+
         <!-- Footer -->
-          <section id="footer">
+<!--           <section id="footer">
             <div class="inner">
               <h2 class="major">Get in touch</h2>
               <p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
@@ -153,6 +154,12 @@
               </ul>
             </div>
           </section>
+ -->
+          <section id="footer">
+            <div class="inner">
+              <Departure/>
+            </div>
+          </section>
 
       </div>
   </div>
@@ -161,9 +168,30 @@
 <script lang="coffee">
 module.exports =
   name: 'app'
+  components:
+    Departure: require('components/Departure')
 
 </script>
 
 <style>
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.5s
 }
+.fade-enter, .fade-leave-active {
+  opacity: 0
+}
+
+/* Enter and leave animations can use different */
+/* durations and timing functions.              */
+.slide-fade-enter-active {
+  transition: all .3s ease;
+}
+.slide-fade-leave-active {
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-active {
+  transform: translateX(10px);
+  opacity: 0;
+}
+
 </style>
