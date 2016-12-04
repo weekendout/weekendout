@@ -3,34 +3,24 @@
   <div class="inner">
     <h1>3. Themes</h1>
     <div class="row uniform">
-      <div class="4u">
+      <div class="6u">
         <span class="image fit">
-          <img src="~images/unsplash/airplane2.jpg" alt="airplane">
+          <img src="~images/beaches.jpg" alt="airplane">
         </span>
       </div>
-      <div class="4u">
+      <div class="6u">
         <span class="image fit">
-          <img src="~images/unsplash/airplane2.jpg" alt="airplane">
+          <img src="~images/mountains.jpg" alt="airplane">
         </span>
       </div>
-      <div class="4u">
+      <div class="6u">
         <span class="image fit">
-          <img src="~images/unsplash/airplane2.jpg" alt="airplane">
+          <img src="~images/nature.jpg" alt="airplane">
         </span>
       </div>
-      <div class="4u">
+      <div class="6u">
         <span class="image fit">
-          <img src="~images/unsplash/airplane2.jpg" alt="airplane">
-        </span>
-      </div>
-      <div class="4u">
-        <span class="image fit">
-          <img src="~images/unsplash/airplane2.jpg" alt="airplane">
-        </span>
-      </div>
-      <div class="4u">
-        <span class="image fit">
-          <img src="~images/unsplash/airplane2.jpg" alt="airplane">
+          <img src="~images/shopping.jpg" alt="airplane">
         </span>
       </div>
     </div>
